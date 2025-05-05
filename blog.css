@@ -1,0 +1,41 @@
+.kabaa{
+    width: 300px;
+    text-align: center;
+    border: #f0f0f0 5px solid;
+    box-shadow: #000 10px 10px 25px;
+    transform: rotate(5deg);
+    transition: ease-in-out 0.5s;
+}
+
+.kabaa:hover{
+    transform: translateY(-13px);
+    box-shadow: #000 5px 10px 15px;
+}
+
+#logo{
+    font-size: 40px;
+}
+
+#logo:hover{
+    text-decoration: underline;
+    transition: ease-in-out 0.6s;
+}
+
+#house{
+    height: 400px;
+    transform: rotate(-5deg);
+}
+
+#house:hover{
+    transform: translateY(-13px);
+    box-shadow: #000 5px 10px 15px;
+}
+
+#begin{
+    margin-top: 100px;
+    color: #4B5320;
+}
+
+.blog p{
+    font-weight: bold;
+}
